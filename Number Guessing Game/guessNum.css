@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(1, 620px);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.guess-game{
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 22px;
+}
+.guessNum-input{
+    margin-top: 10px;
+    gap: 16px;
+}
